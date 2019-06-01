@@ -3,11 +3,10 @@ import {StyleSheet} from 'react-native'
 export default StyleSheet.create({
     snapper: {
         height: 150,
-        backgroundColor: '#000',
+        backgroundColor: 'rgba(0,0,0,.2)',
         display: 'flex',
         flexDirection: 'row',
         justifyContent: 'space-around',
-        opacity: .6,
         alignItems: 'center'
     },
 

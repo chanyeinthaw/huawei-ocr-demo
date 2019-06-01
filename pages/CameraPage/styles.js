@@ -15,7 +15,7 @@ export default StyleSheet.create({
         top: 0,
         right: 0,
         elevation: 2,
-        opacity: .9,
+        opacity: .7,
         backgroundColor: '#000',
         display: 'flex',
         justifyContent: 'center',
