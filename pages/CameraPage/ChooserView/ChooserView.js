@@ -4,9 +4,6 @@ import {Button, View, TouchableOpacity, Text} from 'react-native'
 import styles from './styles'
 
 export default function ChooserView({items=[], selectedIndex=0, onSelect}) {
-    const onPress = () => {
-        console.log('hi')
-    }
     return (
         <View style={styles.chooserView}>
             {items.map((v, i) => {
