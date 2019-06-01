@@ -27,6 +27,9 @@
     },
     "androidStatusBar": {
       "backgroundColor": "#000"
+    },
+    "android": {
+      "package": "com.huawei.ocrdemo"
     }
   }
 }
