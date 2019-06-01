@@ -1,5 +1,5 @@
 import React from 'react'
-import {View, TouchableOpacity, Modal, Text} from 'react-native'
+import {ScrollView, View, TouchableOpacity, Modal, Text} from 'react-native'
 import styles from './styles'
 export default class ModalDialog extends React.Component {
     render() {
@@ -8,26 +8,26 @@ export default class ModalDialog extends React.Component {
         nrcInfo = nrcInfo || {}
 
         return (
-            <Modal
-                onRequestClose={() => {}}
-                transparent={false}
-                animationType="slide"
-                visible={visible}
-            >
-                <TouchableOpacity
-                    onPress={() => this.props.hide()}
-                    >
+            <Modal onRequestClose={() => {}} transparent={false} animationType="slide" visible={visible}>
+                <View style={styles.appBar}>
+                    <TouchableOpacity onPress={this.props.hide}>
+                        <Text style={{color: '#fff'}}>{'DONE'}</Text>
+                    </TouchableOpacity>
+                    <Text style={{color: '#fff', fontWeight: 'bold'}}>{'Converted'}</Text>
+                    <Text>{'Done'}</Text>
+                </View>
+                <ScrollView>
                     <View style={styles.modal}>
                         {
                             Object.keys(nrcInfo).map(k =>
                                 <View style={styles.textView} key={k}>
-                                    <Text style={styles.textLabel}>{k}</Text>
-                                    <Text style={styles.text}>{nrcInfo[k]}</Text>
+                                    <Text style={styles.textLabel}>{k.toUpperCase()}</Text>
+                                    <Text style={styles.text}>{nrcInfo[k] === '' ? '<unknown>' : nrcInfo[k]}</Text>
                                 </View>
                             )
                         }
                     </View>
-                </TouchableOpacity>
+                </ScrollView>
             </Modal>
         )
     }

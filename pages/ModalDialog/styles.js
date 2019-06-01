@@ -1,6 +1,18 @@
 import {StyleSheet} from 'react-native'
 
 export default StyleSheet.create({
+    appBar: {
+        paddingLeft: 20,
+        paddingRight: 20,
+        display: 'flex',
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+        alignItems: 'center',
+        height: 48,
+        width: '100%',
+        backgroundColor: '#000'
+    },
+
     modal: {
         padding: 30,
         display: 'flex',
