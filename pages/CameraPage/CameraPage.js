@@ -39,16 +39,12 @@ export default class CameraPage extends React.Component {
 
         if (this.camera) {
             const {base64} = await this.camera.takePictureAsync({base64: true})
-            this.camera.pausePreview()
 
             this.setState({...this.state, loading: true})
 
             const response = await request(xSubjectToken, base64)
 
-            this.camera.resumePreview()
-
             let state = {...this.state, loading: false}
-console.log(response)
             if (response.ok) {
                 state.nrcInfo = (await response.json()).result
             } else {
