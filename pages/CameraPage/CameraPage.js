@@ -9,6 +9,12 @@ import Snapper from "./Snapper/Snapper";
 export default class CameraPage extends React.Component {
     camera = null;
 
+    pages = [
+        "Myanmar NRC",
+        "Passport",
+        "License"
+    ]
+
     state = {
         selectedIndex: 0,
         hasCameraPermission: null,
@@ -41,7 +47,7 @@ export default class CameraPage extends React.Component {
 
         return (
             <View style={styles.view}>
-                <ChooserView items={["Myanmar NRC", "Passport"]} selectedIndex={selectedIndex} onSelect={this.onSelectChange}/>
+                <ChooserView items={this.pages} selectedIndex={selectedIndex} onSelect={this.onSelectChange}/>
 
                 <Camera
                     style={styles.preview}
