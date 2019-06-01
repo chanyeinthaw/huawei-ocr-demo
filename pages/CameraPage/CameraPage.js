@@ -77,7 +77,7 @@ export default class CameraPage extends React.Component {
                 <ModalDialog visible={nrcInfo !== null} nrcInfo={nrcInfo} hide={this.hideModal}/>
 
                 <Camera
-                    ratio={'4:3'}
+                ratio={'16:9'}
                     style={styles.preview}
                     ref={ref => this.camera = ref}
                 />
