@@ -23,11 +23,10 @@ export default StyleSheet.create({
     },
 
     chooserItemText: {
-        color: '#e1e1e1'
+        color: '#fff'
     },
 
     chooserItemTextBold: {
-        color: '#fff',
-        fontWeight: 'bold'
+        color: '#03A9F4',
     }
 })

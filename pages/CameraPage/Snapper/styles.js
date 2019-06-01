@@ -5,16 +5,23 @@ export default StyleSheet.create({
         height: 150,
         backgroundColor: '#000',
         display: 'flex',
-        alignItems: 'center',
+        flexDirection: 'row',
+        justifyContent: 'space-around',
+        alignItems: 'center'
+    },
+
+    setting: {
+       display: 'flex',
         justifyContent: 'center',
+        alignItems: 'center',
     },
 
     button: {
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
-        width: 80,
-        height: 80,
+        width: 70,
+        height: 70,
         borderColor: '#fff',
         borderStyle: 'solid',
         borderWidth: 1,
@@ -22,8 +29,8 @@ export default StyleSheet.create({
     },
 
     innerCircle: {
-        width: 75,
-        height: 75,
+        width: 65,
+        height: 65,
         borderRadius: 100,
         backgroundColor: '#fff'
     },
