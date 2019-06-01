@@ -22,8 +22,21 @@ export default StyleSheet.create({
         alignItems: 'center'
     },
 
+    absolute: {
+        position: 'absolute',
+        bottom: 0,
+        right: 0,
+        width: _winWidth
+    },
 
-view: {
+    absoluteTop: {
+        position: 'absolute',
+        top: 0,
+        right: 0,
+        width: _winWidth
+    },
+
+    view: {
         display: 'flex',
         flexDirection: 'column',
         marginTop: StatusBar.currentHeight,
@@ -32,7 +45,7 @@ view: {
     preview: {
         width: winWidth,
         height: winHeight,
-        maxHeight: winHeight - 199,
+        maxHeight: winHeight,
         overflow: 'hidden',
     }
 });

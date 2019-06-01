@@ -75,15 +75,19 @@ export default class CameraPage extends React.Component {
                         : null
                 }
                 <ModalDialog visible={nrcInfo !== null} nrcInfo={nrcInfo} hide={this.hideModal}/>
-                <ChooserView items={this.pages} selectedIndex={selectedIndex} onSelect={this.onSelectChange}/>
+                <View style={styles.absoluteTop}>
+                    <ChooserView items={this.pages} selectedIndex={selectedIndex} onSelect={this.onSelectChange}/>
+                </View>
 
                 <Camera
-                    ratio={'1:1'}
+                    ratio={'4:3'}
                     style={styles.preview}
                     ref={ref => this.camera = ref}
                 />
 
-                <Snapper onCapture={this.onCapture} loading={loading}/>
+                <View style={styles.absolute}>
+                    <Snapper onCapture={this.onCapture} loading={loading}/>
+                </View>
             </View>
         )
     }

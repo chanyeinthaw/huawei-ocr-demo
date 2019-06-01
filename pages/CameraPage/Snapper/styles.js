@@ -7,6 +7,7 @@ export default StyleSheet.create({
         display: 'flex',
         flexDirection: 'row',
         justifyContent: 'space-around',
+        opacity: .6,
         alignItems: 'center'
     },
 
