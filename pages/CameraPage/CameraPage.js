@@ -82,13 +82,8 @@ export default class CameraPage extends React.Component {
                     ref={ref => this.camera = ref}
                 />
 
-                <View style={styles.absoluteTop}>
-                    <ChooserView items={this.pages} selectedIndex={selectedIndex} onSelect={this.onSelectChange}/>
-                </View>
-
-                <View style={styles.absolute}>
-                    <Snapper onCapture={this.onCapture} loading={loading}/>
-                </View>
+                <ChooserView items={this.pages} selectedIndex={selectedIndex} onSelect={this.onSelectChange}/>
+                <Snapper onCapture={this.onCapture} loading={loading}/>
             </View>
         )
     }

@@ -2,7 +2,7 @@
 import { StyleSheet, Dimensions } from 'react-native';
 import {StatusBar} from 'react-native';
 
-const { width: _winWidth, height: winHeight } = Dimensions.get('window');
+const { height: winHeight } = Dimensions.get('window');
 
 const winWidth = (winHeight/4) * 3
 
@@ -11,7 +11,7 @@ export default StyleSheet.create({
     loading: {
         position: 'absolute',
         height: winHeight,
-        width: _winWidth,
+        width: '100%',
         top: 0,
         right: 0,
         elevation: 2,
@@ -20,20 +20,6 @@ export default StyleSheet.create({
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center'
-    },
-
-    absolute: {
-        position: 'absolute',
-        bottom: 0,
-        right: 0,
-        width: _winWidth
-    },
-
-    absoluteTop: {
-        position: 'absolute',
-        top: 0,
-        right: 0,
-        width: _winWidth
     },
 
     view: {

@@ -4,6 +4,10 @@ const { width: winWidth } = Dimensions.get('window');
 
 export default StyleSheet.create({
     chooserView: {
+        position: 'absolute',
+        top: 0,
+        right: 0,
+
         alignSelf: 'center',
         width: winWidth,
         backgroundColor: '#000',
