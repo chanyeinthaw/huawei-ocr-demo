@@ -30,8 +30,6 @@ export default StyleSheet.create({
 
     preview: {
         width: winWidth,
-        height: winHeight,
-        maxHeight: winHeight,
-        overflow: 'hidden',
+        height: winHeight
     }
 });
