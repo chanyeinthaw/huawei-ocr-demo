@@ -3,13 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c4ecd176-d3e7-4d98-a8f4-cc7854d1d1a3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/splash.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/splash.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/CameraPage/ChooserView/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/CameraPage/ChooserView/styles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/CameraPage/Snapper/Snapper.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/CameraPage/Snapper/Snapper.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/CameraPage/Snapper/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/CameraPage/Snapper/styles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/CameraPage/CameraPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/CameraPage/CameraPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/CameraPage/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/CameraPage/styles.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -34,22 +29,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/CameraPage/ChooserView/styles.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pages/CameraPage/Snapper/Snapper.js">
+        <entry file="file://$PROJECT_DIR$/pages/CameraPage/CameraPage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="33" lean-forward="true" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+            <state relative-caret-position="359">
+              <caret line="41" column="12" selection-start-line="41" selection-start-column="12" selection-end-line="41" selection-end-column="12" />
               <folding>
-                <element signature="e#0#25#0" expanded="true" />
+                <element signature="e#27#53#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -58,8 +44,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/CameraPage/Snapper/styles.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+            <state relative-caret-position="85">
+              <caret line="5" column="30" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/CameraPage/styles.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+              <folding>
+                <element signature="e#17#71#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -92,18 +90,18 @@
         <option value="$PROJECT_DIR$/pages/CameraPage/ChooserView/ChooserView.js" />
         <option value="$PROJECT_DIR$/request/authenticateRequest.js" />
         <option value="$PROJECT_DIR$/App.js" />
-        <option value="$PROJECT_DIR$/pages/CameraPage/styles.js" />
         <option value="$PROJECT_DIR$/pages/MyanmarNRCDialog/MyanmarNRCDialog.js" />
         <option value="$PROJECT_DIR$/pages/MyanmarNRCDialog/ModalDialog.js" />
         <option value="$PROJECT_DIR$/pages/ModalDialog/styles.js" />
         <option value="$PROJECT_DIR$/pages/ModalDialog/ModalDialog.js" />
         <option value="$PROJECT_DIR$/request/ocrMyanmarIDRequest.js" />
         <option value="$PROJECT_DIR$/request/ocrMyanmarLicenseRequest.js" />
-        <option value="$PROJECT_DIR$/pages/CameraPage/CameraPage.js" />
         <option value="$PROJECT_DIR$/app.json" />
         <option value="$PROJECT_DIR$/pages/CameraPage/ChooserView/styles.js" />
-        <option value="$PROJECT_DIR$/pages/CameraPage/Snapper/styles.js" />
         <option value="$PROJECT_DIR$/pages/CameraPage/Snapper/Snapper.js" />
+        <option value="$PROJECT_DIR$/pages/CameraPage/Snapper/styles.js" />
+        <option value="$PROJECT_DIR$/pages/CameraPage/styles.js" />
+        <option value="$PROJECT_DIR$/pages/CameraPage/CameraPage.js" />
       </list>
     </option>
   </component>
@@ -230,7 +228,7 @@
       <updated>1559286105960</updated>
       <workItem from="1559286108182" duration="2351000" />
       <workItem from="1559368304897" duration="17507000" />
-      <workItem from="1559403071100" duration="2436000" />
+      <workItem from="1559403071100" duration="3038000" />
     </task>
     <task id="LOCAL-00001" summary="Add UI">
       <created>1559377969615</created>
@@ -267,11 +265,25 @@
       <option name="project" value="LOCAL" />
       <updated>1559385454388</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Change some style add setting button but it is not working yet">
+      <created>1559405665221</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1559405665221</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Remove preview pause/resumei">
+      <created>1559405776244</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1559405776244</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22294000" />
+    <option name="totallyTimeSpent" value="22896000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -286,7 +298,7 @@
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49622166" visible="true" weight="0.24983476" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49622166" visible="true" weight="0.24983476" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" sideWeight="0.50377834" side_tool="true" weight="0.24983476" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -356,7 +368,9 @@
     <MESSAGE value="Ignore .idea" />
     <MESSAGE value="Add view" />
     <MESSAGE value="add package name" />
-    <option name="LAST_COMMIT_MESSAGE" value="add package name" />
+    <MESSAGE value="Change some style add setting button but it is not working yet" />
+    <MESSAGE value="Remove preview pause/resumei" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove preview pause/resumei" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/node_modules/expo/build/Expo.js">
@@ -392,16 +406,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/splash.png">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/CameraPage/styles.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="27" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="27" />
-          <folding>
-            <element signature="e#17#71#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/App.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -444,16 +448,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/CameraPage/CameraPage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="59" column="5" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
-          <folding>
-            <element signature="e#27#53#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -468,6 +462,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pages/CameraPage/Snapper/Snapper.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="37" lean-forward="true" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/CameraPage/ChooserView/styles.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/CameraPage/Snapper/styles.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="30" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/CameraPage/styles.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+          <folding>
+            <element signature="e#17#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pages/CameraPage/ChooserView/ChooserView.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -478,26 +506,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/CameraPage/ChooserView/styles.js">
+    <entry file="file://$PROJECT_DIR$/pages/CameraPage/CameraPage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/CameraPage/Snapper/styles.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/CameraPage/Snapper/Snapper.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="33" lean-forward="true" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+        <state relative-caret-position="359">
+          <caret line="41" column="12" selection-start-line="41" selection-start-column="12" selection-end-line="41" selection-end-column="12" />
           <folding>
-            <element signature="e#0#25#0" expanded="true" />
+            <element signature="e#27#53#0" expanded="true" />
           </folding>
         </state>
       </provider>

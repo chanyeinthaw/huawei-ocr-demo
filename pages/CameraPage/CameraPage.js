@@ -1,6 +1,6 @@
 // src/camera.page.js file
 import React from 'react';
-import {Alert, View, Text } from 'react-native';
+import {ActivityIndicator, Alert, View, Text } from 'react-native';
 import {Camera, Permissions } from 'expo';
 import ChooserView from './ChooserView/ChooserView'
 import styles from './styles';
@@ -38,9 +38,9 @@ export default class CameraPage extends React.Component {
         const request = selectedIndex === 0 ? ocrMyanmarIDRequest : ocrMyanmarLicenseRequest
 
         if (this.camera) {
-            const {base64} = await this.camera.takePictureAsync({base64: true})
-
             this.setState({...this.state, loading: true})
+
+            const {base64} = await this.camera.takePictureAsync({base64: true})
 
             const response = await request(xSubjectToken, base64)
 
@@ -55,15 +55,9 @@ export default class CameraPage extends React.Component {
         }
     }
 
-    onSelectChange = (v, i) =>
-        this.setState({
-            ...this.state,
-            selectedIndex: i
-        })
+    onSelectChange = (v, i) => this.setState({...this.state, selectedIndex: i})
 
-    hideModal = () => {
-        this.setState({...this.state, nrcInfo: null})
-    }
+    hideModal = () => {this.setState({...this.state, nrcInfo: null})}
 
     render() {
         const { hasCameraPermission, selectedIndex, loading, nrcInfo } = this.state;
@@ -73,6 +67,13 @@ export default class CameraPage extends React.Component {
 
         return (
             <View style={styles.view}>
+                {
+                    loading ?
+                        <View style={styles.loading}>
+                            <ActivityIndicator size="large" color="#fff" />
+                        </View>
+                        : null
+                }
                 <ModalDialog visible={nrcInfo !== null} nrcInfo={nrcInfo} hide={this.hideModal}/>
                 <ChooserView items={this.pages} selectedIndex={selectedIndex} onSelect={this.onSelectChange}/>
 
