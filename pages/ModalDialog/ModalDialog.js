@@ -10,11 +10,11 @@ export default class ModalDialog extends React.Component {
         return (
             <Modal onRequestClose={() => {}} transparent={false} animationType="slide" visible={visible}>
                 <View style={styles.appBar}>
+                    <Text>{'Done'}</Text>
+                    <Text style={{color: '#fff', fontWeight: 'bold'}}>{'Converted'}</Text>
                     <TouchableOpacity onPress={this.props.hide}>
                         <Text style={{color: '#fff'}}>{'DONE'}</Text>
                     </TouchableOpacity>
-                    <Text style={{color: '#fff', fontWeight: 'bold'}}>{'Converted'}</Text>
-                    <Text>{'Done'}</Text>
                 </View>
                 <ScrollView>
                     <View style={styles.modal}>
