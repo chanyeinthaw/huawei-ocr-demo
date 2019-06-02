@@ -1,20 +1,20 @@
 import React from 'react';
-import {AsyncStorage, BackHandler, View, StatusBar} from 'react-native'
+import {BackHandler, View, StatusBar} from 'react-native'
 import { AppLoading, SplashScreen } from 'expo';
 import CameraPage from "./pages/CameraPage/CameraPage";
 import authenticateRequest from "./request/authenticateRequest";
+import Store from "./Store";
 
 export default class App extends React.Component {
-    tokenStoreKey = 'xSubjectToken'
-    tokenExpiredAtKey = 'xSubjectTokenExpiresAt'
-
     state = {
         xSubjectToken: ""
     }
 
+    store = new Store(['authToken', 'authTokenExpiresAt'])
+
     authenticate = async () => {
-        const token = await AsyncStorage.getItem(this.tokenStoreKey, () => {})
-        const expiresAt = await AsyncStorage.getItem(this.tokenExpiredAtKey, () => {})
+        const token = await this.store.authToken
+        const expiresAt = await this.store.authTokenExpiresAt
 
         if (token != null && expiresAt != null && expiresAt < new Date()) {
             this.setState({xSubjectToken: token})
@@ -29,8 +29,8 @@ export default class App extends React.Component {
                 const data = await response.json()
                 const _token = data.token || {}
 
-                await AsyncStorage.setItem(this.tokenStoreKey, token)
-                await AsyncStorage.setItem(this.tokenExpiredAtKey, new Date(_token.expires_at || Date.now()))
+                await this.store.setAuthToken(token)
+                await this.store.setAuthTokenExpiresAt(new Date(_token.expires_at || Date.now()))
 
                 this.setState({xSubjectToken: token})
                 SplashScreen.hide()
@@ -53,7 +53,7 @@ export default class App extends React.Component {
         return (
             <View>
                 <StatusBar backgroundColor={'#000'} translucent={true} batStyle={'light-content'}/>
-                <CameraPage xSubjectToken={xSubjectToken}/>
+                <CameraPage />
             </View>
         )
     }

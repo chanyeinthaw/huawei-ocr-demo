@@ -8,9 +8,11 @@ import Snapper from "./Snapper/Snapper";
 import ocrMyanmarIDRequest from "../../request/ocrMyanmarIDRequest";
 import ModalDialog from "../ModalDialog/ModalDialog";
 import ocrMyanmarLicenseRequest from "../../request/ocrMyanmarLicenseRequest";
+import Store from "../../Store";
 
 export default class CameraPage extends React.Component {
     camera = null;
+    store = new Store(['authToken'])
 
     pages = [
         "National ID Card",
@@ -32,7 +34,7 @@ export default class CameraPage extends React.Component {
     }
 
     onCapture = async ()  => {
-        const {xSubjectToken} = this.props
+        const authToken = await this.store.authToken
         const {selectedIndex} = this.state
 
         const request = selectedIndex === 0 ? ocrMyanmarIDRequest : ocrMyanmarLicenseRequest
@@ -42,7 +44,7 @@ export default class CameraPage extends React.Component {
 
             const {base64} = await this.camera.takePictureAsync({base64: true})
 
-            const response = await request(xSubjectToken, base64)
+            const response = await request(authToken, base64)
 
             let state = {...this.state, loading: false}
             if (response.ok) {

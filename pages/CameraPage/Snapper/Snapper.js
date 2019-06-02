@@ -7,7 +7,7 @@ import styles from './styles'
 export default function Snapper({onCapture, loading}) {
     return (
         <View style={styles.snapper}>
-            <View style={{width: 10, height: 10, opacity: 0}} />
+            <Icon name="settings" type="material" color="rgba(0,0,0,0)"/>
             <TouchableOpacity
                 disabled={loading}
                 onPress={onCapture}

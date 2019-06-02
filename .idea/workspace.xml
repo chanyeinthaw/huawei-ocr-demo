@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c4ecd176-d3e7-4d98-a8f4-cc7854d1d1a3" name="Default Changelist" comment="">
+    <list default="true" id="c4ecd176-d3e7-4d98-a8f4-cc7854d1d1a3" name="Default Changelist" comment="Polish Modal dialog UI">
+      <change afterPath="$PROJECT_DIR$/Store.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/CameraPage/CameraPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/CameraPage/CameraPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/CameraPage/ChooserView/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/CameraPage/ChooserView/styles.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/CameraPage/Snapper/Snapper.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/CameraPage/Snapper/Snapper.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/CameraPage/Snapper/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/CameraPage/Snapper/styles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/CameraPage/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/CameraPage/styles.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,30 +20,12 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/CameraPage/ChooserView/ChooserView.js">
+        <entry file="file://$PROJECT_DIR$/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/CameraPage/ChooserView/styles.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/CameraPage/styles.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+            <state relative-caret-position="189">
+              <caret line="38" column="13" lean-forward="true" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
               <folding>
-                <element signature="e#17#71#0" expanded="true" />
+                <element signature="e#0#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -53,8 +34,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/CameraPage/CameraPage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="85" column="22" lean-forward="true" selection-start-line="85" selection-start-column="22" selection-end-line="85" selection-end-column="22" />
+            <state relative-caret-position="512">
+              <caret line="87" column="21" selection-start-line="87" selection-start-column="21" selection-end-line="87" selection-end-column="21" />
               <folding>
                 <element signature="e#27#53#0" expanded="true" />
               </folding>
@@ -66,7 +47,7 @@
         <entry file="file://$PROJECT_DIR$/pages/CameraPage/Snapper/Snapper.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="9" column="64" selection-start-line="9" selection-start-column="64" selection-end-line="9" selection-end-column="64" />
+              <caret line="9" column="70" selection-start-line="9" selection-start-column="70" selection-end-line="9" selection-end-column="70" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -77,8 +58,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/CameraPage/Snapper/styles.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+            <state relative-caret-position="206">
+              <caret line="13" column="37" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Store.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/ModalDialog/ModalDialog.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -97,6 +99,7 @@
       <find>Touch</find>
       <find>permissions</find>
       <find>android</find>
+      <find>xsubje</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -109,18 +112,21 @@
         <option value="$PROJECT_DIR$/pages/styles.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/request/authenticateRequest.js" />
-        <option value="$PROJECT_DIR$/App.js" />
         <option value="$PROJECT_DIR$/pages/MyanmarNRCDialog/MyanmarNRCDialog.js" />
         <option value="$PROJECT_DIR$/pages/MyanmarNRCDialog/ModalDialog.js" />
-        <option value="$PROJECT_DIR$/pages/ModalDialog/styles.js" />
-        <option value="$PROJECT_DIR$/pages/ModalDialog/ModalDialog.js" />
         <option value="$PROJECT_DIR$/request/ocrMyanmarIDRequest.js" />
         <option value="$PROJECT_DIR$/request/ocrMyanmarLicenseRequest.js" />
         <option value="$PROJECT_DIR$/app.json" />
         <option value="$PROJECT_DIR$/pages/CameraPage/ChooserView/ChooserView.js" />
         <option value="$PROJECT_DIR$/pages/CameraPage/ChooserView/styles.js" />
-        <option value="$PROJECT_DIR$/pages/CameraPage/CameraPage.js" />
         <option value="$PROJECT_DIR$/pages/CameraPage/styles.js" />
+        <option value="$PROJECT_DIR$/pages/ModalDialog/styles.js" />
+        <option value="$PROJECT_DIR$/request/global-state.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/pages/ModalDialog/ModalDialog.js" />
+        <option value="$PROJECT_DIR$/Store.js" />
+        <option value="$PROJECT_DIR$/App.js" />
+        <option value="$PROJECT_DIR$/pages/CameraPage/CameraPage.js" />
         <option value="$PROJECT_DIR$/pages/CameraPage/Snapper/styles.js" />
         <option value="$PROJECT_DIR$/pages/CameraPage/Snapper/Snapper.js" />
       </list>
@@ -161,26 +167,7 @@
               <item name="ocr-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="ocr-demo" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="CameraPage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ocr-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ocr-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="CameraPage" type="462c0819:PsiDirectoryNode" />
-              <item name="ChooserView" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ocr-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ocr-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="CameraPage" type="462c0819:PsiDirectoryNode" />
-              <item name="Snapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ocr-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ocr-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="request" type="462c0819:PsiDirectoryNode" />
+              <item name="ModalDialog" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -249,7 +236,8 @@
       <updated>1559286105960</updated>
       <workItem from="1559286108182" duration="2351000" />
       <workItem from="1559368304897" duration="17507000" />
-      <workItem from="1559403071100" duration="6805000" />
+      <workItem from="1559403071100" duration="7839000" />
+      <workItem from="1559416141120" duration="5808000" />
     </task>
     <task id="LOCAL-00001" summary="Add UI">
       <created>1559377969615</created>
@@ -335,11 +323,53 @@
       <option name="project" value="LOCAL" />
       <updated>1559409792265</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Refactor things to the way it should be">
+      <created>1559410044199</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1559410044199</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Change frame to 16:9">
+      <created>1559410469978</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1559410469978</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Remove unused code">
+      <created>1559410485824</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1559410485824</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Persist token to expires_at date">
+      <created>1559416980834</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1559416980834</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Polish Modal dialog UI">
+      <created>1559417915344</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1559417915344</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Move done to right">
+      <created>1559463728794</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1559463728794</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26663000" />
+    <option name="totallyTimeSpent" value="33505000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -431,7 +461,13 @@
     <MESSAGE value="Opacity .9" />
     <MESSAGE value="Opacity" />
     <MESSAGE value="Fix can't click chooser" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix can't click chooser" />
+    <MESSAGE value="Refactor things to the way it should be" />
+    <MESSAGE value="Change frame to 16:9" />
+    <MESSAGE value="Remove unused code" />
+    <MESSAGE value="Persist token to expires_at date" />
+    <MESSAGE value="Polish Modal dialog UI" />
+    <MESSAGE value="Move done to right" />
+    <option name="LAST_COMMIT_MESSAGE" value="Move done to right" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/node_modules/react-native/Libraries/Components/Picker/Picker.js">
@@ -461,23 +497,6 @@
     <entry file="file://$PROJECT_DIR$/assets/splash.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/ModalDialog/styles.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/ModalDialog/ModalDialog.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="52" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/request/ocrMyanmarIDRequest.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -492,31 +511,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="40" column="22" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-            <element signature="e#379#783#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/expo/build/Expo.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="229">
@@ -524,51 +518,123 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/CameraPage/ChooserView/ChooserView.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/CameraPage/styles.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+        <state relative-caret-position="160">
+          <caret line="34" column="3" lean-forward="true" selection-start-line="34" selection-start-column="3" selection-end-line="34" selection-end-column="3" />
           <folding>
             <element signature="e#17#71#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/CameraPage/ChooserView/styles.js">
+    <entry file="file://$PROJECT_DIR$/node_modules/react-native/Libraries/Storage/AsyncStorage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+        <state relative-caret-position="229">
+          <caret line="39" column="2" selection-start-line="39" selection-start-column="2" selection-end-line="39" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/CameraPage/Snapper/styles.js">
+    <entry file="file://$PROJECT_DIR$/pages/CameraPage/ChooserView/ChooserView.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        <state relative-caret-position="204">
+          <caret line="12" column="31" lean-forward="true" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/CameraPage/ChooserView/styles.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/ModalDialog/styles.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/request/global-state.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="32" selection-start-column="32" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/react-native/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-323">
+          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/ModalDialog/ModalDialog.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Store.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="38" column="13" lean-forward="true" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/CameraPage/CameraPage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="85" column="22" lean-forward="true" selection-start-line="85" selection-start-column="22" selection-end-line="85" selection-end-column="22" />
+        <state relative-caret-position="512">
+          <caret line="87" column="21" selection-start-line="87" selection-start-column="21" selection-end-line="87" selection-end-column="21" />
           <folding>
             <element signature="e#27#53#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pages/CameraPage/Snapper/styles.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="13" column="37" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pages/CameraPage/Snapper/Snapper.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" column="64" selection-start-line="9" selection-start-column="64" selection-end-line="9" selection-end-column="64" />
+          <caret line="9" column="70" selection-start-line="9" selection-start-column="70" selection-end-line="9" selection-end-column="70" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
