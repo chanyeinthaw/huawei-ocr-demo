@@ -20,6 +20,7 @@ export default class CameraPage extends React.Component {
     ]
 
     state = {
+        pictureSize: '',
         nrcInfo: null,
         loading: false,
         selectedIndex: 0,
@@ -57,12 +58,18 @@ export default class CameraPage extends React.Component {
         }
     }
 
+    onCameraReady = async () => {
+        const imageSizes = await this.camera.getAvailablePictureSizesAsync('16:9')
+
+        this.setState({...this.state, pictureSize: imageSizes[0] || ''})
+    }
+
     onSelectChange = (v, i) => this.setState({...this.state, selectedIndex: i})
 
     hideModal = () => {this.setState({...this.state, nrcInfo: null})}
 
     render() {
-        const { hasCameraPermission, selectedIndex, loading, nrcInfo } = this.state;
+        const { hasCameraPermission, selectedIndex, loading, nrcInfo, pictureSize } = this.state;
 
         if (hasCameraPermission === null) return <View />
         else if (hasCameraPermission === false) return <Text>Access to camera has been denied.</Text>
@@ -79,7 +86,9 @@ export default class CameraPage extends React.Component {
                 <ModalDialog visible={nrcInfo !== null} nrcInfo={nrcInfo} hide={this.hideModal}/>
 
                 <Camera
-                ratio={'16:9'}
+                    ratio={'16:9'}
+                    onCameraReady={this.onCameraReady}
+                    pictureSize={pictureSize}
                     style={styles.preview}
                     ref={ref => this.camera = ref}
                 />
