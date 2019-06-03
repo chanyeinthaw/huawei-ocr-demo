@@ -13,17 +13,17 @@ const options = {
                 ],
                 "password": {
                     "user": {
-                        "name": "chanyeinthaw",
-                        "password": "669870Is>032014",
+                        "name": "OCRTesting",
+                        "password": "HelloWorld",
                         "domain": {
-                            "name": "OCRTesting"
+                            "name": "lichufei"
                         }
                     }
                 }
             },
             "scope": {
                 "project": {
-                    "id": "74b884dbb9b9497a9f236e71c209d235"
+                    "id": "e2a3063b3abb4153ac4dfcd00ec81d9f"
                 }
             }
         }
