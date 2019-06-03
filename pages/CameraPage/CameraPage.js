@@ -51,7 +51,7 @@ export default class CameraPage extends React.Component {
             if (response.ok) {
                 state.data = (await response.json()).result
             } else {
-                Alert.alert('Error', 'Invalid input')
+                Alert.alert('Oops', 'Something is not right with the input image!\nYou might want to take it again.')
             }
 
             this.setState(state)

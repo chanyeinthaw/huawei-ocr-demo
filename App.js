@@ -1,5 +1,5 @@
 import React from 'react';
-import {BackHandler, View, StatusBar} from 'react-native'
+import {BackHandler, View, StatusBar, Alert} from 'react-native'
 import { AppLoading, SplashScreen } from 'expo';
 import CameraPage from "./pages/CameraPage/CameraPage";
 import authenticateRequest from "./request/authenticateRequest";
@@ -38,8 +38,25 @@ export default class App extends React.Component {
                 return
             }
 
-            BackHandler.exitApp()
-        }).catch(() => {BackHandler.exitApp()})
+            SplashScreen.hide()
+            Alert.alert(
+                'Oops',
+                'I can not authenticate to server.',
+                [
+                    {text: 'OK', onPress: () => BackHandler.exitApp()},
+                ]
+            )
+        }).catch(() => {
+
+            SplashScreen.hide()
+            Alert.alert(
+                'Oops',
+                'I can not get access to server.\n Please check your network connectivity and open me again.',
+                [
+                    {text: 'OK', onPress: () => BackHandler.exitApp()},
+                ]
+            )
+        })
     }
 
     render() {
