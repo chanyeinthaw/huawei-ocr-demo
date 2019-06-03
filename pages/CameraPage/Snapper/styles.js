@@ -11,14 +11,24 @@ export default StyleSheet.create({
         backgroundColor: 'rgba(0,0,0,.2)',
         display: 'flex',
         flexDirection: 'row',
-        justifyContent: 'space-around',
+        justifyContent: 'space-between',
         alignItems: 'center'
+    },
+
+    grow: {
+        flex: 1
     },
 
     setting: {
        display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
+    },
+
+    buttonWrapper: {
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center'
     },
 
     button: {
