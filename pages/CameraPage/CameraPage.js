@@ -77,9 +77,10 @@ export default class CameraPage extends React.Component {
         return (
             <View style={styles.view}>
                 {
-                    loading ?
+                    !loading ?
                         <View style={styles.loading}>
                             <ActivityIndicator size="large" color="#fff" />
+                            <Text style={styles.loadingText}>Working on it ...</Text>
                         </View>
                         : null
                 }

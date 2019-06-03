@@ -7,6 +7,10 @@ const { height: winHeight } = Dimensions.get('window');
 const winWidth = (winHeight/16) * 9
 
 export default StyleSheet.create({
+    loadingText: {
+        color: '#fff',
+        marginTop: 10
+    },
 
     loading: {
         position: 'absolute',
@@ -15,8 +19,7 @@ export default StyleSheet.create({
         top: 0,
         right: 0,
         elevation: 2,
-        opacity: .7,
-        backgroundColor: '#000',
+        backgroundColor: 'rgba(0,0,0,.7)',
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center'
