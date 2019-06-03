@@ -13,7 +13,7 @@ import ocrPassportRequest from "../../request/ocrPassportRequest";
 
 export default class CameraPage extends React.Component {
     camera = null;
-    store = new Store(['authToken'])
+    store = new Store(['authToken', 'selectedIndex'])
 
     pages = [
         "National ID Card",
@@ -33,7 +33,8 @@ export default class CameraPage extends React.Component {
         const camera = await Permissions.askAsync(Permissions.CAMERA);
         const hasCameraPermission = camera.status === 'granted';
 
-        this.setState({ hasCameraPermission });
+        const selectedIndex = await this.store.selectedIndex
+        this.setState({ hasCameraPermission, selectedIndex: selectedIndex ? +selectedIndex : 0 });
     }
 
     onCapture = async ()  => {
@@ -74,7 +75,10 @@ export default class CameraPage extends React.Component {
         this.setState({...this.state, pictureSize: imageSizes[0] || ''})
     }
 
-    onSelectChange = (v, i) => this.setState({...this.state, selectedIndex: i})
+    onSelectChange = async (v, i) => {
+        this.setState({...this.state, selectedIndex: i})
+        await this.store.setSelectedIndex(i+'')
+    }
 
     hideModal = () => {this.setState({...this.state, data: null})}
 
