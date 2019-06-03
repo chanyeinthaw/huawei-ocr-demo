@@ -8,7 +8,7 @@ export default function ModalDialog({visible, data, hide}) {
         <Modal onRequestClose={() => {}} transparent={false} animationType="slide" visible={visible}>
             <View style={styles.appBar}>
                 <Text>{'Done'}</Text>
-                <Text style={{color: '#fff', fontWeight: 'bold'}}>{'Converted'}</Text>
+                <Text style={{color: '#fff', fontWeight: 'bold'}}>{'Result'}</Text>
                 <TouchableOpacity onPress={hide}>
                     <Text style={{color: '#fff'}}>{'DONE'}</Text>
                 </TouchableOpacity>
