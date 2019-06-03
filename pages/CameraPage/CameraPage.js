@@ -21,7 +21,7 @@ export default class CameraPage extends React.Component {
 
     state = {
         pictureSize: '',
-        nrcInfo: null,
+        data: null,
         loading: false,
         selectedIndex: 0,
         hasCameraPermission: null,
@@ -49,7 +49,7 @@ export default class CameraPage extends React.Component {
 
             let state = {...this.state, loading: false}
             if (response.ok) {
-                state.nrcInfo = (await response.json()).result
+                state.data = (await response.json()).result
             } else {
                 Alert.alert('Error', 'Invalid input')
             }
@@ -66,10 +66,10 @@ export default class CameraPage extends React.Component {
 
     onSelectChange = (v, i) => this.setState({...this.state, selectedIndex: i})
 
-    hideModal = () => {this.setState({...this.state, nrcInfo: null})}
+    hideModal = () => {this.setState({...this.state, data: null})}
 
     render() {
-        const { hasCameraPermission, selectedIndex, loading, nrcInfo, pictureSize } = this.state;
+        const { hasCameraPermission, selectedIndex, loading, data, pictureSize } = this.state;
 
         if (hasCameraPermission === null) return <View />
         else if (hasCameraPermission === false) return <Text>Access to camera has been denied.</Text>
@@ -83,7 +83,7 @@ export default class CameraPage extends React.Component {
                         </View>
                         : null
                 }
-                <ModalDialog visible={nrcInfo !== null} nrcInfo={nrcInfo} hide={this.hideModal}/>
+                <ModalDialog visible={data !== null} data={data} hide={this.hideModal}/>
 
                 <Camera
                     ratio={'16:9'}
