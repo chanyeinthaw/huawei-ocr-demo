@@ -18,7 +18,7 @@ export default function Snapper({onCapture, loading}) {
             </TouchableOpacity>
             <View style={styles.setting}>
                 <TouchableOpacity>
-                    <Icon name="settings" type="material" color="#fff"/>
+                    <Icon name="settings" type="material" color="rgba(0,0,0,0)"/>
                 </TouchableOpacity>
             </View>
         </View>
