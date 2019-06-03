@@ -9,6 +9,7 @@ import ocrMyanmarIDRequest from "../../request/ocrMyanmarIDRequest";
 import ModalDialog from "../ModalDialog/ModalDialog";
 import ocrMyanmarLicenseRequest from "../../request/ocrMyanmarLicenseRequest";
 import Store from "../../Store";
+import ocrPassportRequest from "../../request/ocrPassportRequest";
 
 export default class CameraPage extends React.Component {
     camera = null;
@@ -16,7 +17,8 @@ export default class CameraPage extends React.Component {
 
     pages = [
         "National ID Card",
-        "License"
+        "License",
+        "Passport"
     ]
 
     state = {
@@ -38,7 +40,15 @@ export default class CameraPage extends React.Component {
         const authToken = await this.store.authToken
         const {selectedIndex} = this.state
 
-        const request = selectedIndex === 0 ? ocrMyanmarIDRequest : ocrMyanmarLicenseRequest
+        let request = null
+
+        switch(selectedIndex) {
+            case 0: request = ocrMyanmarIDRequest; break;
+            case 1: request = ocrMyanmarLicenseRequest; break;
+            case 2: request = ocrPassportRequest; break;
+
+            default: request = ocrMyanmarIDRequest;
+        }
 
         if (this.camera) {
             this.setState({...this.state, loading: true})
