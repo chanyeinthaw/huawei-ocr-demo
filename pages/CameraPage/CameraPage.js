@@ -16,8 +16,8 @@ export default class CameraPage extends React.Component {
     store = new Store(['authToken', 'selectedIndex'])
 
     pages = [
-        "National ID Card",
         "License",
+        "National ID Card",
         "Passport"
     ]
 
@@ -25,7 +25,7 @@ export default class CameraPage extends React.Component {
         pictureSize: '',
         data: null,
         loading: false,
-        selectedIndex: 0,
+        selectedIndex: 1,
         hasCameraPermission: null,
     };
 
@@ -44,8 +44,8 @@ export default class CameraPage extends React.Component {
         let request = null
 
         switch(selectedIndex) {
-            case 0: request = ocrMyanmarIDRequest; break;
-            case 1: request = ocrMyanmarLicenseRequest; break;
+            case 1: request = ocrMyanmarIDRequest; break;
+            case 0: request = ocrMyanmarLicenseRequest; break;
             case 2: request = ocrPassportRequest; break;
 
             default: request = ocrMyanmarIDRequest;
