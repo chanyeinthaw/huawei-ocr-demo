@@ -18,7 +18,7 @@
     },
     "updates": {
       "enabled": true,
-      "checkAutomatically": "ON_RELOAD",
+      "checkAutomatically": "ON_LOAD",
       "fallbackToCacheTimeout": 3000
     },
     "assetBundlePatterns": [
