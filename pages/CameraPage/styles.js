@@ -4,8 +4,6 @@ import {StatusBar} from 'react-native';
 
 const { height: winHeight } = Dimensions.get('window');
 
-const winWidth = (winHeight/16) * 9
-
 export default StyleSheet.create({
     loadingText: {
         color: '#fff',
@@ -32,7 +30,7 @@ export default StyleSheet.create({
     },
 
     preview: {
-        width: winWidth,
+        width: '100%',
         height: winHeight
     }
 });
