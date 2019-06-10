@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4ecd176-d3e7-4d98-a8f4-cc7854d1d1a3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/CameraPage/CameraPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/CameraPage/CameraPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/CameraPage/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/CameraPage/styles.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,14 +15,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/CameraPage/CameraPage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+            <state relative-caret-position="359">
+              <caret line="103" column="32" selection-start-line="103" selection-start-column="32" selection-end-line="103" selection-end-column="32" />
               <folding>
                 <element signature="e#27#53#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pages/CameraPage/styles.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="4" column="55" selection-start-line="4" selection-start-column="55" selection-end-line="4" selection-end-column="55" />
+              <folding>
+                <element signature="e#17#71#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -86,7 +106,6 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/request/authenticateRequest.js" />
         <option value="$PROJECT_DIR$/App.js" />
-        <option value="$PROJECT_DIR$/pages/CameraPage/styles.js" />
         <option value="$PROJECT_DIR$/request/ocrPassportRequest.js" />
         <option value="$PROJECT_DIR$/Store.js" />
         <option value="$PROJECT_DIR$/pages/ModalDialog/ModalDialog.js" />
@@ -95,6 +114,7 @@
         <option value="$PROJECT_DIR$/app.json" />
         <option value="$PROJECT_DIR$/pages/CameraPage/ChooserView/styles.js" />
         <option value="$PROJECT_DIR$/pages/CameraPage/CameraPage.js" />
+        <option value="$PROJECT_DIR$/pages/CameraPage/styles.js" />
       </list>
     </option>
   </component>
@@ -224,7 +244,7 @@
       <workItem from="1559532147167" duration="3696000" />
       <workItem from="1559544436544" duration="3781000" />
       <workItem from="1559578921554" duration="16000" />
-      <workItem from="1560141604337" duration="5971000" />
+      <workItem from="1560141604337" duration="6841000" />
     </task>
     <task id="LOCAL-00001" summary="Add UI">
       <created>1559377969615</created>
@@ -450,11 +470,18 @@
       <option name="project" value="LOCAL" />
       <updated>1560159443278</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Change menu order">
+      <created>1560161402032</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1560161402032</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47685000" />
+    <option name="totallyTimeSpent" value="48555000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -534,7 +561,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Remove preview pause/resumei" />
     <MESSAGE value="Add loading activity indicator" />
     <MESSAGE value="Add opacity and overlapping" />
     <MESSAGE value="Opacity .9" />
@@ -559,7 +585,8 @@
     <MESSAGE value="add grow flex:1 to snapper childs" />
     <MESSAGE value="Add auto update and spalash" />
     <MESSAGE value="fix app.json error" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix app.json error" />
+    <MESSAGE value="Change menu order" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change menu order" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/node_modules/react-native/Libraries/Components/Picker/Picker.js">
@@ -629,16 +656,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/CameraPage/styles.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="6" lean-forward="true" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
-          <folding>
-            <element signature="e#17#71#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/request/ocrPassportRequest.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -697,13 +714,6 @@
     <entry file="file://$PROJECT_DIR$/assets/splash.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="19" column="22" lean-forward="true" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/CameraPage/ChooserView/ChooserView.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -721,12 +731,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pages/CameraPage/CameraPage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+        <state relative-caret-position="359">
+          <caret line="103" column="32" selection-start-line="103" selection-start-column="32" selection-end-line="103" selection-end-column="32" />
           <folding>
             <element signature="e#27#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/CameraPage/styles.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="4" column="55" selection-start-line="4" selection-start-column="55" selection-end-line="4" selection-end-column="55" />
+          <folding>
+            <element signature="e#17#71#0" expanded="true" />
           </folding>
         </state>
       </provider>
